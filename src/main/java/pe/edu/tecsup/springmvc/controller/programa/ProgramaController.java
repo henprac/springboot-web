@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pe.edu.tecsup.springmvc.programa;
+package pe.edu.tecsup.springmvc.controller.programa;
 
 import java.beans.PropertyEditorSupport;
 import java.text.ParseException;
