@@ -1,4 +1,4 @@
-<div class="tab-pane fade show" id="crud">
+<div class="tab-pane fade show" id="prog">
     <div class="card-body">
         
         <p>Ejemplo de Crud </p>
