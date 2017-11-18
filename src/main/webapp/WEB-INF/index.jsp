@@ -39,6 +39,10 @@
                     <li class="nav-item">
                         <a class="nav-link" id="contact-tab" data-toggle="tab" href="#crud">CRUD</a>
                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#prog">PROGRAMAS</a>
+                    </li>
+					
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <%@include file="_includes/basico.jsp" %>
@@ -48,6 +52,7 @@
                     <%@include file="_includes/model.jsp" %>
                     <%@include file="_includes/session.jsp" %>
                     <%@include file="_includes/crud.jsp" %>
+                    <%@include file="_includes/prog.jsp" %>
                 </div>
             </div>
 

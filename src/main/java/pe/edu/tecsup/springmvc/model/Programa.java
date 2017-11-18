@@ -31,6 +31,15 @@ public class Programa implements Serializable {
 
     @OneToMany(mappedBy = "programa", fetch = FetchType.LAZY)
     private List<Curso> cursos;
+     //agregue constructor.
+    public Programa(Long id) {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+
+    //agregue constructor
+    public Programa() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
 
     public Long getId() {
         return id;
