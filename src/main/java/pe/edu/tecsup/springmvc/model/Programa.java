@@ -33,12 +33,12 @@ public class Programa implements Serializable {
     private List<Curso> cursos;
      //agregue constructor.
     public Programa(Long id) {
-        throw new UnsupportedOperationException("Not supported yet."); 
+         
     }
 
     //agregue constructor
     public Programa() {
-        throw new UnsupportedOperationException("Not supported yet."); 
+         
     }
 
     public Long getId() {
